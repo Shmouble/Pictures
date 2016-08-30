@@ -1,0 +1,12 @@
+<div id="content">
+    <h2 id="intro">What do we have today?</h2>
+            
+    <div id="world">
+                
+         <div class="imgHolder" ng-repeat="pic in vm.mainPics">
+             <img ng-src="{{pic.source}}" class="part" />
+             <span>{{pic.label}}</span>
+         </div>                
+             
+    </div>
+</div>

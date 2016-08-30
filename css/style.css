@@ -1,0 +1,64 @@
+body {
+    background-color: #E8E8E8;
+    min-width: 1000px;
+}
+
+#content{
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family:sans-serif;
+    padding: 10px;
+}
+
+#intro{
+    color:#655643;
+    text-align: center;
+    display:block;
+    margin-top: 30px;    
+    font-size: 30;
+}
+
+#world{    
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.part{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.imgHolder {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: inline-block;
+    margin: 14px;
+}
+.imgHolder:hover{
+    opacity:0.7;
+}
+
+.imgHolder span {
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 4px black;
+}
+
+
+
+
+
+
+
+
+
+
+
